@@ -3,140 +3,27 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>반응형 해상도와 폰트사이즈</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-	    <link rel="stylesheet" type="text/css" href="03_viewport.css">
+        <title>20220315 grid</title>
+        
+        <style>
+            .ddd {font-size:100px;}
+  
+        </style>
     </head>
-      
-   
+ 
+    
     <body>
-	    <h1 style="font-size:50px">둥어야 보고 있어 내말 듣고 있어</h1>
-        <section>
-            <div>모바일 퍼스트: min<br>https://nykim.work/84?category=692675<br>https://eunyoe.tistory.com/category/Web/CSS </div>
-            <div>데스크탑 퍼스트 : max<br></div>
-           
-            
-            
-            <div style="display:none;">
-            <span class="content1">
-            html의 기본 시스템 사이즈는 font-size:16px이다.
-            사이즈를 기정하지 않으면 기본적으로 시스템 자이즈가 적용된다. 
-            html{font-size:16px;} 에서 16px은 1rem, 17px은 1.063rem이 된다.
-            이러면 계산하기 어려우므로, 
-            html{font-size:62.5%;} 또는 html{font-size:10px;} 로 하면
-            10px은 1rem, 12px은 1.2rem, 14px은 1.4rem 이 되기 때문에 따로 계산할 필요가 없다.</span>
-            <br>
-            
-            <ul class="font_10px">
-                <li class="a">default 10px / 10px = 1rem </li>
-                <li class="b">default 10px / 12px = 1.2rem </li>   
-                <li class="c">default 10px / 14px = 1.4rem </li>   
-                <li class="d">default 10px / 16px = 1.6rem </li> 
-                <li class="e">default 10px / 18px = 1.8rem </li>
-                <li class="f">default 10px / 20px = 20rem </li>   
-                <li class="g">default 10px / 22px = 2.2rem </li>   
-                <li class="h">default 10px / 24px = 2.4rem </li>   
-                <li class="color1">배경컬러 rgb(255,160,122)</li>  
-            </ul>
-            
+    <div class="ddd">둥어 이거 보여 내 말 듣고 있어</div>
+    
 
-            <ul class="font_16x">
-                <li class="a">default 16px 16px = 1rem(base) </li>
-                <li class="c">18px = 1.125rem </li>   
-                <li class="d">20px = 1.25rem </li> 
-                <li class="e">22px = 1.375rem </li> 
-                <li class="f">24px = 1.5rem </li> 
-                <li class="g">26px = 1.625rem </li> 
-                <li class="h">28px = 1.75rem </li> 
-                <li class="i">30px = 1.875rem </li>                
-                <li class="j">32px = 2rem </li> 
-                <li>http://pxtoem.com/</li>
-            </ul>
-            
-            
-            
-            
-            <span>
-            미디어쿼리로 css를 처리할 때 브레이크 포인트에서 html의 폰트 사이즈만 변경 해주면 하위 rem 단위의 크기가 전부 변경되어 편리하다.</span>
-            https://www.w3schools.com/cssref/css_pxtoemconversion.asp
-            </div>  
-            
-            <table style="border-collapse: collapse; width: 600px;" border="1">
-                <tbody>
-                <tr>
-                <td><b>크기</b></td>
-                <td><b>키워드</b></td>
-                <td><b>기준점 해상도</b></td>
-                <td><b>디바이스</b></td>
-                </tr>
-                <tr>
-                <td>아주 작은(Extra small)</td>
-                <td>xs</td>
-                <td>576px 미만</td>
-                <td>스마트폰 세로</td>
-                </tr>
-                <tr>
-                <td>작은(Small)</td>
-                <td>sm</td>
-                <td>576px 이상</td>
-                <td>스마트폰 가로</td>
-                </tr>
-                <tr>
-                <td>중간(Medium)</td>
-                <td>md</td>
-                <td>768px 이상</td>
-                <td>타블렛</td>
-                </tr>
-                <tr>
-                <td>큰(Large)</td>
-                <td>lg</td>
-                <td>992px 이상</td>
-                <td>데스크탑</td>
-                </tr>
-                <tr>
-                <td>아주 큰(Extra large)</td>
-                <td>xl</td>
-                <td>1200px 이상</td>
-                <td>큰 데스크탑</td>
-                </tr>
-                </tbody>
-            </table>      
-                                 
-        </section>
-        
-        
-        
-        <section>
-            <div class="container">
-            <span class="item item1">1</span>
-            <span class="item item2">2</span>    
-            <span class="item item3">3</span>   
-            <span class="item item4">4</span>
-            <span class="item item5">5</span>    
-            <span class="item item6">6</span>                 
-            </div>
-            
-            <div class="container2">
-            <span class="item item1">1</span>
-            <span class="item item2">2</span>    
-            <span class="item item1">3</span>
-            <span class="item item2">4</span>   
-            <span class="item item1">5</span>        
-            </div>
-            
-            <div class="container3">
-            <span class="item item1">1</span>
-            <span class="item item2">2</span>    
-            <span class="item item3">3</span>
-            <span class="item item4">4</span>   
-            <span class="item item5">5</span>         
-            </div>          
-            
-        </section>
-        
-        
-    </body>   
 
-   
-         
+    
+
+    
+    
+    
+
+    
+    
+    </body>      
 </html>
